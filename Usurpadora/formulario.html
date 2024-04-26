@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG_Select </title>
+
+    <link rel="stylesheet" href="forrm.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+    <div class="container">
+        <div class="tittle"> Solicitud </div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details"> Nombre completo </span>
+                    <input type="text" placeholder="Insert your full name" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details"> Fecha de nacimiento </span>
+                    <input type= "date" placeholder="Birth date" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details"> Grado escolar </span>
+                    <input type="text" placeholder="Insert your grade" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details"> ¿Qué deseas reforzar? </span>
+                    <input type="text" placeholder="What do you need to reforce?" required>
+                </div>
+
+                <div class="input-box">
+                    <span class="details"> ¿Cómo aprendes? </span>
+                    <input type="text" placeholder="What is your learning strategy?" required>
+                </div>
+
+
+                <div class="input-box">
+                    <span class="details"> ID </span>
+                    <input type="number" placeholder="ID" required>
+                </div>
+            </div>
+
+            <div class="horario-details">
+
+                <input type="radio" name="horario" id="dot-1">
+                <input type="radio" name="horario" id="dot-2">
+                <input type="radio" name="horario" id="dot-3">
+                <input type="radio" name="horario" id="dot-4">
+
+
+
+                <span class="horario-title">  Horarios disponibles </span>
+                <div class="category">
+
+                    <label for="dot-1">
+                        <span class="dot one"></span>
+                        <span class="horario"> 9:00am </span>
+                    </label>
+
+                    <label for="dot-2">
+                        <span class="dot two"></span>
+                        <span class="horario"> 3:45pm </span>
+                    </label>
+
+                    <label for="dot-3">
+                        <span class="dot three"></span>
+                        <span class="horario"> 5:30pm </span>
+                    </label>
+
+                    <label for="dot-4">
+                        <span class="dot four"></span>
+                        <span class="horario"> 7:00pm </span>
+                    </label>
+                </div>
+            </div>
+
+                   <div class="button">
+                    <input type="submit" name="" value="Enviar">
+                   
+                </div>
+
+        </form>
+    </div>
+</body>
+</html>
