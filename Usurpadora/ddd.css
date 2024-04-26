@@ -1,0 +1,45 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+
+.image {
+
+ display: flex;
+ justify-content: space-between;
+
+ 
+}
+
+.image img{
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    position: relative;
+}
+
+@media (min-width: 250px) {
+
+    .image{
+       align-items: center;
+    
+    }
+
+    .Audio{
+        align-content: left;
+    }
+
+    .video{
+
+        align-content: center;
+    }
+
+    .parra{
+
+        font-size: 25px;
+    }
+
+}
